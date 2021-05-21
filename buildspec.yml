@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - mv /conf_scripts/location.properties /target/lavagna
+    - cp /conf_scripts/location.properties /target/lavagna
     - mv /target/lavagna ./
     
 artifacts:
