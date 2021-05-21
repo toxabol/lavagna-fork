@@ -1,8 +1,12 @@
 version: 0.2
 phases:
+  install:
+    runtime-versions:
+      java: openjdk8
   pre_build:
     commands:
     - echo "Entered the pre-build phase"
+    - pwd
   build:
     commands:
     - echo "Entered build phase"
