@@ -19,4 +19,4 @@ phases:
     
 artifacts:
   files:
-    - /target/lavagna/**/*
+    - $CODEBUILD_SRC_DIR/target/lavagna/**/*
