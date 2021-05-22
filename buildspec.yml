@@ -18,7 +18,7 @@ phases:
     - zip -r archive.zip $CODEBUILD_SRC_DIR/target/lavagna/* 
     - cd $CODEBUILD_SRC_DIR/target/lavagna
     - ls -a
-     - cd $CODEBUILD_SRC_DIR/target
+    - cd $CODEBUILD_SRC_DIR/target
     - ls -a
 #    - mv /target/lavagna ./
     
