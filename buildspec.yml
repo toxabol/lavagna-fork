@@ -20,4 +20,4 @@ phases:
     
 artifacts:
   files:
-    - $CODEBUILD_SRC_DIR/target/lavagna/*.zip
+    - $CODEBUILD_SRC_DIR/target/archive.zip
