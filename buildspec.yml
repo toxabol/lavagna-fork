@@ -15,7 +15,7 @@ phases:
     commands:
     - echo "Entered the post-build phase"
     - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
-    - zip -r 9 archive.zip $CODEBUILD_SRC_DIR/target/lavagna
+    - zip -r 9 archive.zip $CODEBUILD_SRC_DIR/target/lavagna -d $CODEBUILD_SRC_DIR/target/
     - cd $CODEBUILD_SRC_DIR/target/lavagna
     - ls -a
 #    - mv /target/lavagna ./
