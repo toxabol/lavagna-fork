@@ -24,4 +24,4 @@ phases:
     - ls -a
 artifacts:
   files:
-    - $CODEBUILD_SRC_DIR/target/lavagna/**/*
+    - $CODEBUILD_SRC_DIR/archive.zip
