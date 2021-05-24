@@ -19,8 +19,13 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
-    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /lavagna
+    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /
+    - cd /
+    - ls -a
+    - echo "Entered the post-build phase"
+    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties /lavagna    
+#    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
+#    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /lavagna
 #    - cd /
 #    - ls -a
 #    
@@ -31,5 +36,7 @@ phases:
 
 artifacts:
   files:
-    - lavagna/**/*
+    - /lavagna/**/*
+
+
   
