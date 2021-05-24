@@ -23,7 +23,10 @@ phases:
     - cd /
     - ls -a
     - echo "Entered the post-build phase"
-    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties /lavagna    
+    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties /lavagna
+    - cd /lavagna
+    - eb init
+    - eb deploy
 #    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
 #    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /lavagna
 #    - cd /
