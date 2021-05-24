@@ -32,4 +32,4 @@ phases:
 artifacts:
   files:
     - lavagna/**/*
-  base-directory: /lavagna
+  
