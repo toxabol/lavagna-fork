@@ -1,4 +1,9 @@
 version: 0.2
+#eb_codebuild_settings:
+#  CodeBuildServiceRole: arn:aws:iam::536460581283:role/service-role/codebuild-lavagna-test-build-service-role
+#  ComputeType: BUILD_GENERAL1_SMALL
+#  Image: aws/codebuild/standard:5.0
+#  Timeout: 10
 phases:
   install:
     runtime-versions:
@@ -13,14 +18,18 @@ phases:
     - mvn -B package --file pom.xml
   post_build:
     commands:
-    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /
-    - cd /
-    - ls -a
     - echo "Entered the post-build phase"
-    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties /lavagna
-    - eb deploy lvgn-test-terraform
+    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
+#    - cp -r $CODEBUILD_SRC_DIR/target/lavagna /
+#    - cd /
+#    - ls -a
+#    
+#    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties /lavagna
+#    - eb deploy lvgn-test-terraform
+#    - aws s3 cp ./obj/Release/Package/<<APPLICATION NAME HERE>>.zip s3://$ARTIFACT_BUCKET/$EB_APPLICATION_NAME-$CODEBUILD_BUILD_NUMBER.zip
 #    - cp $CODEBUILD_SRC_DIR/conf_scripts/location.properties $CODEBUILD_SRC_DIR/target/lavagna
 
 artifacts:
   files:
     - /lavagna/**/*
+  base-directory: $CODEBUILD_SRC_DIR/target/lavagna
