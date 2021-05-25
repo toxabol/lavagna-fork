@@ -31,11 +31,11 @@ jobs:
     - name: Copy db env
 #      run: cp ${{ github.workspace }}/conf_scripts/location.properties ${{ github.workspace }}/target/lavagna
 #    - name: copy file with args
-      uses: canastro/copy-file-action@master
-      with:
-        source: "/conf_scripts/location.properties"
-        target: "/target/lavagna/location.properties"
-        flags: "-f"
+#      uses: canastro/copy-file-action@master
+#      with:
+#        source: "/conf_scripts/location.properties"
+#        target: "/target/lavagna/location.properties"
+#        flags: "-f"
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
