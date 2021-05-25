@@ -36,6 +36,8 @@ jobs:
 #        source: "/conf_scripts/location.properties"
 #        target: "/target/lavagna/location.properties"
 #        flags: "-f"
+    - name: invastigation
+      run: ls -a
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
