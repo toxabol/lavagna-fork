@@ -45,7 +45,7 @@ jobs:
         environment_name: lvgn-test-terraform
         version_label: 12345
         region: eu-west-3
-        deployment_package: /target/lavagna/lavagna.war
+        deployment_package: ${{ github.workspace }}/target/lavagna/lavagna.war
 #    - name: Publish to GitHub Packages Apache Maven
 #      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
 #      env:
