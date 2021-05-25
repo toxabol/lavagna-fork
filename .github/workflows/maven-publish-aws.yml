@@ -26,10 +26,11 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Copy db env
-      run: cp /home/runner/work/lavagna-fork/lavagna-fork/conf_scripts/location.properties /home/runner/work/lavagna-fork/lavagna-fork/target/lavagna
     - name: check path
       run: pwd
+    - name: Copy db env
+      run: cp ${{ github.workspace }}/conf_scripts/location.properties ${{ github.workspace }}/target/lavagna
+
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
