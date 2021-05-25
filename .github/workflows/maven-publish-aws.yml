@@ -27,7 +27,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Copy db env
-      run: cp /conf_scripts/location.properties /target/lavagna
+      run: cp /home/runner/work/lavagna-fork/lavagna-fork/conf_scripts/location.properties /home/runner/work/lavagna-fork/lavagna-fork/target/lavagna
     - name: check path
       run: pwd
     - name: Deploy to EB
