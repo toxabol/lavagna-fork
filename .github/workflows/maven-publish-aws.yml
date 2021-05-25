@@ -30,9 +30,10 @@ jobs:
       run: pwd
     - name: Copy db env
       run: cp ${{ github.workspace }}/conf_scripts/location.properties ${{ github.workspace }}/target/lavagna
-
+    - name: cd to dir
+      run: cd  ${{ github.workspace }}/target 
     - name: rezip
-      run: zip -r archive.zip ${{ github.workspace }}/target/lavagna 
+      run: zip -r archive.zip /lavagna 
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
