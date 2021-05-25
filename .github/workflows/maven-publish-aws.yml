@@ -31,8 +31,8 @@ jobs:
     - name: Copy db env
       run: cp ${{ github.workspace }}/conf_scripts/location.properties ${{ github.workspace }}/target/lavagna
 
-    - name: investigation
-      run: ls -a
+    - name: rezip
+      run: zip -r archive.zip ${{ github.workspace }}/target/lavagna 
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
@@ -42,8 +42,8 @@ jobs:
         environment_name: lvgn-test-terraform
         version_label: 12345
         region: eu-west-3
-#        deployment_package: ${{ github.workspace }}/target/lavagna/lavagna.war
-        deployment_package: ${{ github.workspace }}/target/lavagna.war
+        deployment_package: archive.zip
+#        deployment_package: ${{ github.workspace }}/target/lavagna.war
 #    - name: Publish to GitHub Packages Apache Maven
 #      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
 #      env:
