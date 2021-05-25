@@ -1,4 +1,5 @@
-version: 0.2#eb_codebuild_settings:
+version: 0.2
+eb_codebuild_settings:
   CodeBuildServiceRole: arn:aws:iam::536460581283:role/service-role/codebuild-lavagna-test-build-service-role
   ComputeType: BUILD_GENERAL1_SMALL
   Image: aws/codebuild/standard:5.0
