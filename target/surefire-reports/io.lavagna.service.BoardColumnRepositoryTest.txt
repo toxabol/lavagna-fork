@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.lavagna.service.BoardColumnRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.588 sec - in io.lavagna.service.BoardColumnRepositoryTest

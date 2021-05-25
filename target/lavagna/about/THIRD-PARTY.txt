@@ -1,0 +1,224 @@
+
+This product includes/uses the following libraries:
+
+ - npjt-extra (https://github.com/digitalfondue/npjt-extra); ch.digitalfondue.npjt-extra:npjt-extra:2.0.4
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - commonmark-java core (https://github.com/atlassian/commonmark-java/commonmark); com.atlassian.commonmark:commonmark:0.14.0
+     License: BSD 2-Clause License (http://opensource.org/licenses/BSD-2-Clause)
+
+ - Jackson-annotations (http://github.com/FasterXML/jackson); com.fasterxml.jackson.core:jackson-annotations:2.11.0
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Jackson-core (https://github.com/FasterXML/jackson-core); com.fasterxml.jackson.core:jackson-core:2.11.0
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - jackson-databind (http://github.com/FasterXML/jackson); com.fasterxml.jackson.core:jackson-databind:2.11.0
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Gson (https://github.com/google/gson/gson); com.google.code.gson:gson:2.8.6
+     License: Apache 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/); com.google.protobuf:protobuf-java:3.11.4
+     License: 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause)
+
+ - Trello Java Wrapper (https://github.com/bywan/trello-java-wrapper); com.julienvey.trello:trello-java-wrapper:0.3.2
+     License: The MIT License (http://www.opensource.org/licenses/mit-license.php)
+
+ - scrypt (http://github.com/wg/scrypt); com.lambdaworks:scrypt:1.4.0
+     License: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - jmustache (http://github.com/samskivert/jmustache); com.samskivert:jmustache:1.15
+     License: The (New) BSD License (http://www.opensource.org/licenses/bsd-license.php)
+
+ - HikariCP (https://github.com/brettwooldridge/HikariCP); com.zaxxer:HikariCP-java7:2.4.13
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/); commons-codec:commons-codec:1.14
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Non-Blocking Reactive Foundation for the JVM (https://github.com/reactor/reactor-core); io.projectreactor:reactor-core:3.3.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - JavaBeans Activation Framework (JAF) (http://java.sun.com/products/javabeans/jaf/index.jsp); javax.activation:activation:1.1
+     License: Common Development and Distribution License (CDDL) v1.0 (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+
+ - JavaMail API (compat) (http://kenai.com/projects/javamail/mail); javax.mail:mail:1.4.6
+     License: CDDL (http://www.sun.com/cddl)
+     License: GPLv2+CE (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+ - MySQL Connector/J (http://dev.mysql.com/doc/connector-j/en/); mysql:mysql-connector-java:8.0.22
+     License: The GNU General Public License, v2 with FOSS exception (no url defined)
+
+ - Apache Commons Collections (http://commons.apache.org/proper/commons-collections/); org.apache.commons:commons-collections4:4.1
+     License: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/); org.apache.commons:commons-lang3:3.9
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Commons Text (https://commons.apache.org/proper/commons-text); org.apache.commons:commons-text:1.8
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Log4j API (https://logging.apache.org/log4j/2.x/log4j-api/); org.apache.logging.log4j:log4j-api:2.14.0
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Log4j Core (https://logging.apache.org/log4j/2.x/log4j-core/); org.apache.logging.log4j:log4j-core:2.14.0
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Log4j Commons Logging Bridge (https://logging.apache.org/log4j/2.x/log4j-jcl/); org.apache.logging.log4j:log4j-jcl:2.14.0
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache Log4j SLF4J Binding (https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/); org.apache.logging.log4j:log4j-slf4j-impl:2.14.0
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Apache POI (http://poi.apache.org/); org.apache.poi:poi:3.17
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Checker Qual (https://checkerframework.org); org.checkerframework:checker-qual:3.5.0
+     License: The MIT License (http://opensource.org/licenses/MIT)
+
+ - flyway-core (https://flywaydb.org/flyway-core); org.flywaydb:flyway-core:4.2.0
+     License: Apache License, Version 2.0 (https://github.com/flyway/flyway/blob/master/LICENSE.txt)
+
+ - HyperSQL Database (http://hsqldb.org); org.hsqldb:hsqldb:2.5.1
+     License: HSQLDB License, a BSD open source license (http://hsqldb.org/web/hsqlLicense.html)
+
+ - IntelliJ IDEA Annotations (http://www.jetbrains.org); org.jetbrains:annotations:13.0
+     License: The Apache Software License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - org.jetbrains.kotlin:kotlin-stdlib (https://kotlinlang.org/); org.jetbrains.kotlin:kotlin-stdlib:1.3.61
+     License: The Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - org.jetbrains.kotlin:kotlin-stdlib-common (https://kotlinlang.org/); org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61
+     License: The Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - jsoup Java HTML Parser (https://jsoup.org/); org.jsoup:jsoup:1.13.1
+     License: The MIT License (https://jsoup.org/license)
+
+ - ical4j (http://ical4j.github.io); org.mnode.ical4j:ical4j:2.2.0
+     License: iCal4j - License (https://raw.githubusercontent.com/ical4j/ical4j/master/LICENSE)
+
+ - PostgreSQL JDBC Driver (https://jdbc.postgresql.org); org.postgresql:postgresql:42.2.18
+     License: BSD-2-Clause (https://jdbc.postgresql.org/about/license.html)
+
+ - reactive-streams (http://www.reactive-streams.org/); org.reactivestreams:reactive-streams:1.0.3
+     License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+
+ - Scribe OAuth Library (http://github.com/fernandezpablo85/scribe-java); org.scribe:scribe:1.3.7
+     License: MIT (http://github.com/fernandezpablo85/scribe-java/blob/master/LICENSE.txt)
+
+ - SLF4J API Module (http://www.slf4j.org); org.slf4j:slf4j-api:1.7.25
+     License: MIT License (http://www.opensource.org/licenses/mit-license.php)
+
+ - Spring AOP (https://github.com/spring-projects/spring-framework); org.springframework:spring-aop:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Beans (https://github.com/spring-projects/spring-framework); org.springframework:spring-beans:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Context (https://github.com/spring-projects/spring-framework); org.springframework:spring-context:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Context Support (https://github.com/spring-projects/spring-framework); org.springframework:spring-context-support:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Core (https://github.com/spring-projects/spring-framework); org.springframework:spring-core:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Expression Language (SpEL) (https://github.com/spring-projects/spring-framework); org.springframework:spring-expression:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework); org.springframework:spring-jcl:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring JDBC (https://github.com/spring-projects/spring-framework); org.springframework:spring-jdbc:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Messaging (https://github.com/spring-projects/spring-framework); org.springframework:spring-messaging:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Transaction (https://github.com/spring-projects/spring-framework); org.springframework:spring-tx:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Web (https://github.com/spring-projects/spring-framework); org.springframework:spring-web:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Web MVC (https://github.com/spring-projects/spring-framework); org.springframework:spring-webmvc:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring WebSocket (https://github.com/spring-projects/spring-framework); org.springframework:spring-websocket:5.2.11.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+ - Spring Integration Core (https://github.com/spring-projects/spring-integration); org.springframework.integration:spring-integration-core:5.3.4.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Spring Integration Mail Support (https://github.com/spring-projects/spring-integration); org.springframework.integration:spring-integration-mail:5.3.4.RELEASE
+     License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - Spring Retry (https://www.springsource.org); org.springframework.retry:spring-retry:1.2.5.RELEASE
+     License: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+ - ThreeTen backport (https://www.threeten.org/threetenbp); org.threeten:threetenbp:1.3.6
+     License: BSD 3-clause (https://raw.githubusercontent.com/ThreeTen/threetenbp/master/LICENSE.txt)
+
+ - UrlRewriteFilter (http://www.tuckey.org/urlrewrite/); org.tuckey:urlrewritefilter:4.0.4
+     License: BSD (http://www.opensource.org/licenses/bsd-license.php)
+
+ - winsw: Windows service wrapper in less restrictive license (https://github.com/kohsuke/winsw);
+     License: The MIT License (http://www.opensource.org/licenses/mit-license.php)
+ 
+ - Font Awesome by Dave Gandy (http://fontawesome.io)
+     License: (http://fontawesome.io/license/)
+       - Font License: SIL OFL 1.1 (http://scripts.sil.org/OFL)
+       - Code License: MIT License (http://opensource.org/licenses/mit-license.html)
+
+ - Material Design Lite (http://www.getmdl.io/)
+     License: The Apache Software License, Version 2.0 (https://raw.githubusercontent.com/google/material-design-lite/master/LICENSE)
+
+ - AngularJS (http://angularjs.org)
+     License: MIT (https://github.com/angular/angular.js/blob/master/LICENSE)
+ 
+ - Angular Material Design (https://github.com/angular/material)
+     License: MIT (https://github.com/angular/material/blob/master/LICENSE)
+     
+ - angular ui.router (https://github.com/angular-ui/ui-router)
+     License: MIT (https://github.com/angular-ui/ui-router/blob/master/LICENSE)
+      
+ - angular-translate (http://github.com/PascalPrecht/angular-translate)
+     License: MIT (https://github.com/angular-translate/angular-translate/blob/master/LICENSE)
+      
+ - angular-file-upload (https://github.com/danialfarid/ng-file-upload)
+     License: MIT (https://github.com/danialfarid/ng-file-upload/blob/master/LICENSE)
+
+ - Chart.js (http://chartjs.org/)
+     License: MIT (https://github.com/nnnick/Chart.js/blob/master/LICENSE.md)
+
+ - cal-heatmap (https://kamisama.github.io/cal-heatmap/)
+     License: MIT (https://github.com/kamisama/cal-heatmap/blob/master/LICENCE-MIT)
+          
+ - d3js (http://d3js.org/)
+     License: BSD-3-Clause (https://github.com/mbostock/d3/blob/master/LICENSE)
+
+ - Highlight (https://highlightjs.org/)
+     License: BSD-3-Clause (https://github.com/isagalaev/highlight.js/blob/master/LICENSE)
+     
+ - jQuery (https://jquery.org/)
+     License: MIT (https://jquery.org/license/)
+
+ - marked (https://github.com/chjj/marked)
+     License: MIT (https://github.com/chjj/marked/blob/master/LICENSE)
+     
+ - moment.js (http://momentjs.com/)
+     License: MIT (https://github.com/moment/moment/blob/develop/LICENSE)
+     
+ - SockJS client (http://sockjs.org)
+     License: MIT (https://github.com/sockjs/sockjs-client/blob/master/LICENSE)
+     
+ - angular-sortable-view (https://github.com/kamilkp/angular-sortable-view)
+     License: MIT (https://github.com/kamilkp/angular-sortable-view/blob/master/LICENSE)
+ 
+ - Spectrum Colorpicker (https://github.com/bgrins/spectrum)
+     License: MIT (https://github.com/bgrins/spectrum/blob/master/LICENSE)
+ 
+ - Stomp Over WebSocket (https://github.com/jmesnil/stomp-websocket)
+     License: The Apache Software License, Version 2.0 (https://github.com/jmesnil/stomp-websocket/blob/master/LICENSE.txt)
