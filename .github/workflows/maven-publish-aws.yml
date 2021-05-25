@@ -28,7 +28,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: check path
       run: pwd
-    - name: Copy db env
+#    - name: Copy db env
 #      run: cp ${{ github.workspace }}/conf_scripts/location.properties ${{ github.workspace }}/target/lavagna
 #    - name: copy file with args
 #      uses: canastro/copy-file-action@master
