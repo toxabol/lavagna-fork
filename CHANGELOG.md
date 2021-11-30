@@ -6,7 +6,7 @@
  - Update dependencies
 
 ## 1.1.6 (2020-04-01)
-
+asf
  - Fix issue when uploading files on card creation, see #136 , thanks @majugurci for providing the good hint (see https://github.com/digitalfondue/lavagna/commit/a96d70a21865fcbd73d8cbf8ec348cd1c618cead)
 
 ## 1.1.5 (2020-03-28)
