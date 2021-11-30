@@ -165,4 +165,3 @@
 
  - stable release
 
-test
