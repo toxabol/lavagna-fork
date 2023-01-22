@@ -11,7 +11,7 @@ phases:
     - echo Logging in to Amazon ECR.... 
     - aws --version
     # update the following line with your own region
-    - $(aws ecr get-login --no-include-email --region eu-west-3)
+    - aws ecr get-login-password | docker login --username AWS --password-stdin 450327742362.dkr.ecr.us-east-1.amazonaws.com
     - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
     - IMAGE_TAG=staging
     - REPOSITORY_API_URI=450327742362.dkr.ecr.us-east-1.amazonaws.com/pipeline-test
